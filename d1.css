@@ -1,0 +1,117 @@
+@font-face {
+    font-family: kalam-bold;
+    src: url("../d1/Kalam/Kalam-Bold.ttf");
+}
+*{
+    box-sizing: border-box;
+}
+.flex-container {
+    display: flex;
+  }
+  
+body{
+    background-color: rgb(145, 218, 228);
+    justify-content: space-between;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    }
+
+.img{ width: 100%;
+    height: 562px;
+    margin-left:0px;
+    margin-right: 0px;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    overflow: hidden;   
+}
+.cont{
+    display:flex;
+ margin-top: -175px;
+}
+@media (max-width: 800px) {
+    .cont {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.box{
+     margin: 20px;
+     padding: 10px;
+}
+.box1{
+    background-color: #478ac9;
+    margin-left: 146px;
+}
+.box2{
+    background-color: #83b9dc;
+}
+.box3{
+    background-color: #e8b333;
+    margin-right: 146px;
+}
+.sat{
+    font-family: kalam-bold;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    display: block;
+    margin:0px;
+    position: relative;
+    word-wrap: break-word;
+    font-weight: bold;
+    color: inherit;
+    color: white;
+    text-align: center;
+    padding: 30px 30px 10px 10px;
+}
+.text{
+    position: relative;
+    font-style: italic;
+    margin-top: 20px;
+    margin-right: 2px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    color: white;
+    text-align: center;
+    word-wrap: break-word;
+    font-size: large;
+}
+.button{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: none;
+    font-weight: 700;
+    margin: 20px auto 0;
+    padding: 10px 58px 10px 57px;
+    color: black;
+    background-color: #F0F8FF;
+    display: table;
+    vertical-align: middle;
+}
+.a1{
+    cursor: pointer;
+    text-decoration: none;
+}
+.btext{
+    display: flex;
+    word-wrap: break-word;
+    position: relative;
+    width:434px;
+    margin:30px auto 55px;
+}
+footer{
+    background-color: #333;
+    width:100%;
+    height: 100px;
+    position: absolute bottom;
+    color:white;
+    text-align: center;
+    padding-top: 10px;
+}
+.a2{
+    cursor: pointer;
+    color:#1E90FF;
+}
